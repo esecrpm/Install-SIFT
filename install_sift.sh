@@ -4,9 +4,6 @@
 sudo apt update
 sudo apt -y upgrade
 
-# Change to current user's home directory
-cd ~
-
 # Download SIFT CLI and key file to current user's Downloads directory
 wget -P ~/Downloads https://github.com/sans-dfir/sift-cli/releases/download/v1.7.1/sift-cli-linux
 wget -P ~/Downloads https://github.com/sans-dfir/sift-cli/releases/download/v1.7.1/sift-cli-linux.sha256.asc
